@@ -17,7 +17,7 @@ CREATE TABLE matches(
   ,umpire1         VARCHAR(21)
   ,umpire2         VARCHAR(14)
   ,umpire3         VARCHAR(30)
-);
+)
 INSERT INTO matches(id,season,city,date,team1,team2,toss_winner,toss_decision,result,dl_applied,winner,win_by_runs,win_by_wickets,player_of_match,venue,umpire1,umpire2,umpire3) VALUES (1,2017,'Hyderabad','2017-04-05','Sunrisers Hyderabad','Royal Challengers Bangalore','Royal Challengers Bangalore','field','normal',0,'Sunrisers Hyderabad',35,0,'Yuvraj Singh','Rajiv Gandhi International Stadium, Uppal','AY Dandekar','NJ Llong',NULL);
 INSERT INTO matches(id,season,city,date,team1,team2,toss_winner,toss_decision,result,dl_applied,winner,win_by_runs,win_by_wickets,player_of_match,venue,umpire1,umpire2,umpire3) VALUES (2,2017,'Pune','2017-04-06','Mumbai Indians','Rising Pune Supergiant','Rising Pune Supergiant','field','normal',0,'Rising Pune Supergiant',0,7,'SPD Smith','Maharashtra Cricket Association Stadium','A Nand Kishore','S Ravi',NULL);
 INSERT INTO matches(id,season,city,date,team1,team2,toss_winner,toss_decision,result,dl_applied,winner,win_by_runs,win_by_wickets,player_of_match,venue,umpire1,umpire2,umpire3) VALUES (3,2017,'Rajkot','2017-04-07','Gujarat Lions','Kolkata Knight Riders','Kolkata Knight Riders','field','normal',0,'Kolkata Knight Riders',0,10,'CA Lynn','Saurashtra Cricket Association Stadium','Nitin Menon','CK Nandan',NULL);
